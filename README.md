@@ -1,54 +1,49 @@
 Decentralized Library Smart Contract
 
-This project is a simple Solidity smart contract that represents a decentralized library system where users can add, borrow, and return books on the blockchain.
+Project Description:
+This is a beginner-friendly Solidity smart contract that creates a decentralized library system on the blockchain. Users can add books, borrow them, and return them — without needing a central authority. The blockchain keeps everything transparent and secure.
 
-It is created as a beginner-friendly project to explore how decentralized applications can manage shared digital resources using smart contracts.
+What it does:
 
-Features
+Allows users to add new books with title and author
 
-Add new books to the library
+Lets users borrow available books
 
-Borrow books if they are available
+Prevents borrowing a book that is already borrowed
 
-Track borrower address on the blockchain
+Ensures only the borrower can return the book
 
-Return books with access control
+Stores data publicly on the blockchain
 
-View total books in the library
+Tracks how many books are in the library
 
-Smart Contract Summary
+Features:
 
-The smart contract uses a “Book” structure that stores:
+Simple and beginner-friendly smart contract logic
 
-Book title
+Fully decentralized functionality
 
-Author name
+Borrowing and returning is verified by wallet addresses
 
-Borrow status (available or not)
+Viewable data for transparency and trust
 
-Address of the borrower
+Deployed Smart Contract Link:
+XXX
 
-Main functions:
+Smart Contract Code:
+//paste your code
 
-addBook() → Add a new book
+Technologies Used:
 
-borrowBook() → Borrow a book by ID
+Solidity (Ethereum Smart Contracts)
 
-returnBook() → Return a borrowed book
+Remix IDE for deployment/testing
 
-getTotalBooks() → Show total number of books
+Any EVM compatible blockchain network
 
-Tools Used
+How to Run:
 
-Solidity (Ethereum smart contracts)
-
-Remix IDE for deployment
-
-Any EVM-compatible blockchain network
-
-How to Run
-
-Go to Remix: https://remix.ethereum.org
+Open Remix: https://remix.ethereum.org
 
 Create a new file named DecentralizedLibrary.sol
 
@@ -56,22 +51,21 @@ Paste the smart contract code
 
 Compile using Solidity version 0.8.x
 
-Deploy using JavaScript VM or a test network
+Deploy using JavaScript VM or a test network with MetaMask
 
-Future Improvements
+Future Improvements:
 
-Token rewards for sharing or lending books
+Token rewards for contributors
 
-Borrowing duration, due dates, and fines
+Deadlines and fines for late returns
 
-IPFS storage for digital books
+NFT-based book identity and ownership
 
-NFT-based book ownership
+IPFS support for digital books
 
-Advanced search or category filters
+More detailed book metadata and search features
 
-Admin and verification roles
+Admin/verification system for book submissions
 
-License
-
-This project is licensed under the MIT License.
+License:
+MIT License
