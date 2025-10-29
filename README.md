@@ -1,5 +1,8 @@
 Decentralized Library Smart Contract
 
+<img width="1902" height="990" alt="image" src="https://github.com/user-attachments/assets/8f970aa2-6122-4dda-9d03-2f27f7e85ab7" />
+
+
 Project Description:
 This is a beginner-friendly Solidity smart contract that creates a decentralized library system on the blockchain. Users can add books, borrow them, and return them — without needing a central authority. The blockchain keeps everything transparent and secure.
 
